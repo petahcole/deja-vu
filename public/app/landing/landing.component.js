@@ -5,7 +5,7 @@
 		.module('deja.vu')
     .component('landing', {
 				controller: 'landingController',
-                templateUrl: '/app/landing/landing.html'
+        templateUrl: '/app/landing/landing.html'
     });
 
 })();
