@@ -1,24 +1,19 @@
 {
   "name": "deja-vu",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/petahcole/deja-vu.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/petahcole/deja-vu/issues"
-  },
-  "homepage": "https://github.com/petahcole/deja-vu#readme",
   "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "^4.14.0",
+    "jade": "~1.11.0",
     "knex": "^0.12.6",
-    "pg": "^6.1.2"
+    "morgan": "~1.7.0",
+    "pg": "^6.1.2",
+    "serve-favicon": "~2.3.0",
   }
 }
