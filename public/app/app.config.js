@@ -20,7 +20,12 @@
                 url: '/option-two',
                 component: 'two'
             });
-            
+						$stateProvider.state({
+								name: 'choose',
+								url: '/choose',
+								component: 'choosePlayer'
+						})
+
 
 
             $urlRouterProvider.otherwise('/');
