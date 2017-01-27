@@ -16,9 +16,9 @@
                 component: 'one'
             });
             $stateProvider.state({
-                name: 'two',
-                url: '/option-two',
-                component: 'two'
+                name: 'wrong',
+                url: '/wrong-option',
+                component: 'wrong'
             });
             
 

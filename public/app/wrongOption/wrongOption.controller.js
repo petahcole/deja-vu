@@ -3,9 +3,9 @@
 
 	angular
 		.module('deja.vu')
-    .controller('optionOneController', optionOneController);
+    .controller('wrongOptionController', wrongOptionController);
 
-	function optionOneController() {
+	function wrongOptionController() {
 		const vm = this;
 
 		vm.$onInit = function(){
