@@ -5,7 +5,7 @@
 		.module('deja.vu')
     .component('one', {
 				controller: 'optionOneController',
-                templateUrl: 'public/app/optionOne/optionOne.html'
+                templateUrl: '/app/optionOne/optionOne.html'
     });
 
 })();
